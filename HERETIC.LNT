@@ -1,0 +1,93 @@
+
+/* Lint file for Heretic project */
+
+//--------------------------------------------------------------------------
+//
+// OPTIONS
+//
+//--------------------------------------------------------------------------
+
+// Use integer model for enumerations
+//
++fie
+
+// Allow ignoring return values
+//
+-e534
+
+// Allow repeated include files
+//
+-e537
+
+// Allow shifting signed quantities
+//
+-e701
+-e702
+
+// Allow more than 127 enumeration constants (ANSI limit)
+//
+-"esym(793,enumeration constants)"
+
+// Don't complain about global macros that are not referenced
+//
+-e755
+
+// Don't complain about global enumeration constants that are not
+// referenced
+//
+-e769
+
+// Don't complain about external symbols that could be made static
+//
+-e765
+
+//--------------------------------------------------------------------------
+//
+// FILES
+//
+//--------------------------------------------------------------------------
+
+i_ibm.c
+i_cyber.c
+i_sound.c
+am_map.c
+ct_chat.c
+d_main.c
+d_net.c
+g_game.c
+f_finale.c
+info.c
+in_lude.c
+mn_menu.c
+m_misc.c
+p_ceilng.c
+p_doors.c
+p_enemy.c
+p_floor.c
+p_inter.c
+p_lights.c
+p_map.c
+p_maputl.c
+p_mobj.c
+p_plats.c
+p_pspr.c
+p_setup.c
+p_sight.c
+p_spec.c
+p_switch.c
+p_telept.c
+p_tick.c
+p_user.c
+r_bsp.c
+r_data.c
+r_draw.c
+r_main.c
+r_plane.c
+r_segs.c
+r_things.c
+sb_bar.c
+sounds.c
+tables.c
+v_video.c
+w_wad.c
+z_zone.c
